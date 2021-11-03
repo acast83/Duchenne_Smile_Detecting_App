@@ -7,7 +7,7 @@ The idea for me was to create a tool that will detect genuine smile, and ignore 
 
 First step was to create a script that will allow me to download a large number of images and store them in a specific folder.
 I achieved this using Python and Selenium, an open-source web-based automation tool. [google_images_scraping.py](https://github.com/acast83/duchenne_smile_detecting_app/blob/master/google_images_scraping.py) script automates search and downloading images, allowing user to choose specific search term
-that will be used during this automated search. To create a cascade model We need to use images stored in bmp format.
+that will be used during automated search. To create a cascade model We need to use images stored in bmp format. For this purpose I downloaded around 250 images positive images and 50 negative images.
 
 After that I created a Haar cascade model using [this tutorial](https://www.cs.auckland.ac.nz/~m.rezaei/Tutorials/Creating_a_Cascade_of_Haar-Like_Classifiers_Step_by_Step.pdf)
 
