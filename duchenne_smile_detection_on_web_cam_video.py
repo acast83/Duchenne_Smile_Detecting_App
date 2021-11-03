@@ -1,6 +1,6 @@
 import cv2
 import time                        
-face_cascade = cv2.CascadeClassifier('cascade.xml' )   
+face_cascade = cv2.CascadeClassifier('my_caascade.xml' )   
 
 video = cv2.VideoCapture(0)          
                                                     
