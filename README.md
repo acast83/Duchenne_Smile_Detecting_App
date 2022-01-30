@@ -16,7 +16,8 @@ runs our webcam using OpenCv library and displays rectangle around detected obje
 
 Both Python scripts are fully functioning but I am still not satisfied with the Haar cascade model I created. I will experiment more, if anyone is interested in collaboration  and improvement of my Haar cascade model please email me.
 
-
+Screenshot of my app using current Haar cascade model
+![picture](https://github.com/acast83/duchenne_smile_detecting_app/blob/master/Screenshot%20from%202021-11-03%2014-04-55.png)
 
 
 
