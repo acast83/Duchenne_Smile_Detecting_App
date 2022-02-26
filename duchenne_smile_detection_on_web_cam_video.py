@@ -11,7 +11,8 @@ while True:
     gray_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     # face detecting method
-    faces = face_cascade.detectMultiScale(gray_img, scaleFactor=1.05, minNeighbors=5)
+    faces = face_cascade.detectMultiScale(
+        gray_img, scaleFactor=1.05, minNeighbors=5)
 
     for x, y, w, h in faces:
         frame = cv2.rectangle(
